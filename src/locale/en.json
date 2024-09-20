@@ -1,0 +1,105 @@
+{
+  "translation": {
+    "navbar": {
+      "home": "home",
+      "about": "about",
+      "projects": "projects",
+      "writing": "writing",
+      "contactMe": "get in touch"
+    },
+    "footer": {
+      "description": "Designed and coded by @ zoe roversi giusti 2024. Icons @ Freepik. Pixel avatar @ Picrewの."
+    },
+    "home": {
+      "description": "Videomaker, Video Editor, Front-end developer, communication enthusiast."
+    },
+    "about": {
+      "aboutTitle": "About me",
+      "aboutDescription": "Hello! My name is Zoe Roversi Giusti. I’m a front-end developer, videomaker and video-editor from\n                    Italy.\n                    I’m a jack of all trades - master of some. I’m passionate about writing, reading, communicating,\n                    permaculture and all things creative."
+    },
+    "projects": {
+      "projectsTitle": "latest projects",
+      "permaorto": "I am currently developing an app, <i>PermaOrto</i> (the official name is tbd), dedicated to the delicate art of growing your own vegetables. It will allow the user to collect data about their experience & easily access information about how to grow a garden. These info will follow the insights and ethics of permaculture",
+      "tradAI": "<b><i>ItaliaSlowTour</i></b> asked me to use ElevenLabs (an app that deals with AI and audio) to dub in German a video that was originally in Italian. I'm currently doing the same work for them but for a longer video, that has to be translated and dubbed from Italian to English. <br/><br/><a href='https://www.italiaslowtour.it/' target={'_blank'}>italiaslowtour.it</a>",
+      "become": "I worked for <i><b>BECOME. Augmented Life</b></i> for a year, as a Junior Front-end Developer and Video Editor. I spent most of my time developing this web app, that was dedicated to online courses. <br/><br/><a href=\"https://discoverbecome.com/\" target={'_blank'}>discoverbecome.com</a>",
+      "patrizio": "I made this website with <i>Wordpress</i> for a private customer, who needed a showcase site that could be also used as a blog. Now he can easily add pages and contents by himself, if he needs to do so. <br/><br/><a href='https://patrizioroversi.it/' target={'_blank'}>patrizioroversi.it</a>",
+      "mietta": "A private customer asked me to make a website to show her work as a director and set designer, in order to book more projects. I used <i>Wordpress</i>, creating four pages and showing her how she could add others herself. The website is available in three different languages.<br/><br/><a href='https://miettacorli.it' target={'_blank'}>miettacorli.it</a>",
+      "gruppo98": "I made this simple documentary for a group of poets called <i><b>Gruppo '98 Poesia</b></i> who needed it in order to tell their story and their methodology in an accessible way. This video is going to be part of the <a href=\"https://archivio.women.it/\" target=\"_blank\" rel=\"no-referrer\">Women's History\n                        Archive</a> of Centro delle Donne di Bologna.",
+      "tindog": "This is a website I developed in order to practice CSS for the <b>Web Development Bootcamp</b> by the London App Brewery.<br/> <br/> <a href=\"https://eozisfine.github.io/tindog2/\">tindog app</a>",
+      "loSaiChe": "I was the co-host of the web-series <a\n                        href=\"https://www.youtube.com/playlist?list=PLAOYbpieiFAfIOH1RCHpTZXL-oC-y_oLR\"><i>\"Lo Sai\n                        Che?\"</i></a> for BioVoices and PerCasoSrl. The videos are about the environmental impact of our daily habits. In them, Blady and I propose some viable options.<br/> <br/>\n                        <a href=\"https://www.youtube.com/playlist?list=PLAOYbpieiFAfIOH1RCHpTZXL-oC-y_oLR\">Watch here\n                            the\n                            whole series.</a>",
+      "ampliadora": "While staying in Granada to complete the EU+ master in Gender Studies, I attended two photography courses at the Social School of Photography <a\n                        href=\"https://www.instagram.com/la_ampliadora/\">\"La Ampliadora\"</a></b>. We organized an exposition for father's day: <a\n                        href=\"https://www.laampliadora.org/inauguracion-exposicion-tu-papa-tambien/\">«TU PAPÁ\n                        TAMBIÉN»</a>. The themes were masculinities and fatherhood. The purpose was to represent these two themes in a feminist and tender light.",
+      "inViaggio": "I worked for the Italian mass media company <a href=\"https://mediasetitalia.com/\">Mediaset</a> and PerCasoSrl at \"In viaggio con mia figlia\", a tv series dedicated to eco-tourism in Italy. I was the co-host, alongside my mother and tv personality Syusy Blady.<br/> <br/> <a href=\"https://youtu.be/wU2yt2CL1Vg?si=fuhTsN7UfL6ZCdCl\">Watch the interview in\n                        which\n                        we present the tv series.</a>\n                        <br/> <a href=\"https://youtu.be/wU2yt2CL1Vg?si=fuhTsN7UfL6ZCdCl\">Watch the trailer.</a>\n                        <br/><a href=\"https://www.italiaslowtour.it/inviaggioconmiafiglia/\">Watch the whole series.</a>\n                        <br/><a\n                        href=\"https://www.youtube.com/watch?v=MjFmDSVDoBs&list=PLA_oVzg3LuIrJg1REy7gPPbWaKoBp5_Xd&index=13\">Watch\n                        a sneak peek of the episode on Naples (with EN subtitles).</a>"
+    },
+    "writing": {
+      "writingTitle": "writing",
+      "writingDescription": "I write stuff that I personally like"
+    },
+    "cardSection": {
+      "cardTitle": "Videomaker and Front-end developer",
+      "cardP1": "I've always worked in the communication field. I'm an experience videomaker and video editor, as well as a junior front-end developer. I speak four languages.",
+      "cardP2": "I'm a sensitive person who pays attention to details. I have a lively imagination and curiosity, which help me find creative solutions to problems.",
+      "cardP3": "I know how to work in a team. I prefer direct and kind communication and active listening."
+    },
+    "workExperience": {
+      "workExTitle": "work experience",
+      "become": "2023-2024 Junior Front-end Developer at BECOME. Augmented Life (Milan). Full remote. I worked as a programmer and a video editor, while learning to employ tools such as AWS, React.js and Unreal Engine 5.",
+      "freelance": "2022-2023 Freelance Videomaker and Junior Front-end Developer",
+      "Orlando2": "2021-2022 Collaboration (as a Videomaker, Photographer, Social Media Manager, Content creator) with Ass.ne Orlando-Centro delle Donne di Bologna (Bologna)",
+      "Orlando1": "2020-2021 Paid intership (as a Videomaker, Photographer, Social Media Manager, Content creator) at Ass.ne Orlando-Centro delle Donne di Bologna (Bologna)",
+      "loSaiChe": "2021 Co-host of the docu-series Lo Sai Che for Biovoices and PerCaso Srl (Bologna)",
+      "TPCmagazine": "2020-2021 Editor of Turisti per Caso Magazine for PerCaso Srl (Bologna)",
+      "sessfem": "2020 Volunteer Facilitator for the self-managed course on female sexualities Sessfem (Bologna)",
+      "inViaggioCon": "2018 Co-host of the docu-series In viaggio con mia figlia for Mediaset and PerCaso Srl (Bologna)",
+      "astalli": "2017 University internship at the migrant women's shelter La Casa di Giorgia at Centro Astalli (150 hours) (Roma)",
+      "perCaso": "2015-2018 Occasional provision of services as a Videomaker and Video Editor for PerCaso Srl (Bologna)",
+      "oxfam": "2012 Volunteer Shop Assistant for Oxfam (London)"
+    },
+    "skills": {
+      "skillsTitle": "skills",
+      "writing": "writing",
+      "videomaking": "videomaking",
+      "video editing": "video editing",
+      "programming": "programming",
+      "photography": "photography",
+      "social media": "social media"
+    },
+    "languages": {
+      "languagesTitle": "languages",
+      "it": "italian (mother tongue)",
+      "en": "english (daily use, c2)",
+      "es": "spanish (fluent, b2)",
+      "fr": "french (survivable, b1)"
+    },
+    "tools": {
+      "toolsTitle": "tools"
+    },
+    "education": {
+      "educationTitle": "education",
+      "master": "2017-2019 EN-ES-ITA Erasmus +: Erasmus Mundus Master's Degree in Women's and Gender Studies. Università di Bologna and Universidad de Granada (Bologna, Granada)",
+      "bachelor": "2013-2017 ITA Bachelor's Degree in \"History, Anthropology and Religions\" - Cultural Anthropology's curriculum. Università La Sapienza (Roma)",
+      "highSchool": "2008-2013 ITA High School Diploma from a linguistic high school [languages learned: English, French, Spanish]. Liceo Linguistico Malpighi (Bologna)"
+    },
+    "courses": {
+      "coursesTitle": "courses",
+      "permaculture": "Accademia Italiana di Permacultura (Zocca, MO) 72 hours total.",
+      "angela": "Online course by Angela Yu. 65,5 hours total.",
+      "photographyEbiner": "Online course by Phil Ebiner. 25 hours total.",
+      "videoStorytelling": "Online course by Andrew St.Pierre White. 4,5 hours total.",
+      "ampliadora": "Course by Escuela Social de Fotografia La Ampliadora (Granada). 15 hours total.",
+      "ielts": "Score: 7.0 (C1)",
+      "beFilmaker": "Filmmaking beginner and intermediate courses, gained trough a scholarship.",
+      "genius": "Genius Method: Memory Techniques, Mind Maps, Learning Strategies. Genius (Bologna)",
+      "ielts2": "Score: 6.5 (B2)"
+    },
+    "hobbies": {
+      "hobbiesTitle": "hobbies",
+      "hobbiesDescription": "Writing short stories; Reading novels, non-fiction and graphic novels; Permaculture (taking care, observing and organizing of the woods and the garden near my house); Gathering wild herbs to make ointments and liquors; Hiking; Doing archery; Gardening vegetables and taking care of fruit trees; Playing table-top games; Playing video games; Non-Violent Communication; History and Philosophies of feminist and LGBTQIA+ movements; Drawing; Playing musical instruments; Singing"
+    },
+    "contactMe": {
+      "contactMeTitle": "Get In Touch",
+      "contactMeSubtitle": "I’m currently available for freelance work.",
+      "contactMeDescription": "If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch."
+    }
+
+  }
+}

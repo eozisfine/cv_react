@@ -1,0 +1,104 @@
+{
+  "translation": {
+    "navbar": {
+      "home": "pagina principale",
+      "about": "chi sono",
+      "projects": "progetti",
+      "writing": "scrittura",
+      "contactMe": "contatti"
+    },
+    "footer": {
+      "description": "programmazione e design @ zoe roversi giusti. icone @ Freepik. avatar @ Picrewの"
+    },
+    "home": {
+      "description": "videomaker, montatrice, programmatrice front-end e creatrice di contenuti."
+    },
+    "about": {
+      "aboutTitle": "Chi sono",
+      "aboutDescription" : "Mi chiamo Zoe Roversi Giusti. Sono una sviluppatrice front-end, videomaker e montatrice. Vivo nell'Appennino Modenese. Scrivo e leggo molto. Sono appassionata di comunicazione, permacultura e tutto ciò che si può fare di creativo e manuale."
+    },
+    "projects": {
+      "projectsTitle": "ultimi progetti",
+      "permaorto": "Attualmente sto sviluppando un'app, <i>PermaOrto</i> (il nome ufficiale è da decidere), dedicata alla delicata arte di coltivare le proprie verdure. Faciliterà l'utente a raccogliere dati sul tipo di ambiente su cui sta lavorando e sulla propria esperienza da anno in anno. Inoltre fornirà consigli sulle colture. Le informazioni fornite dall'app seguiranno la conoscenza e le etiche della permacultura.",
+      "tradAI": "<b><i>ItaliaSlowTour</i></b> mi ha chiesto di usare ElevenLabs (un'app che si occupa di intelligenza artificiale e audio) per doppiare in tedesco un video che originariamente era in italiano. Attualmente sto facendo lo stesso lavoro per loro, ma per un video più lungo, che deve essere tradotto e doppiato dall'italiano all'inglese. <br/><br/><a href='https://www.italiaslowtour.it/' target={'_blank'}>→ italiaslowtour.it</a>",
+      "become": "Ho lavorato per <i><b>BECOME. Augmented Life</b></i> per un anno, come Junior Front-end Developer e Video Editor. Ho trascorso la maggior parte del mio tempo a sviluppare questa app web, dedicata ai corsi online forniti dall'azienda. <br/><br/><a href=\"https://discoverbecome.com/\" target={'_blank'}>→ discoverbecome.com</a>",
+      "patrizio": "Ho realizzato questo sito web con <i>Wordpress</i> per un cliente privato, che aveva bisogno di un sito vetrina che potesse essere utilizzato anche come blog. Ora può facilmente aggiungere pagine e contenuti da solo, se ne ha bisogno. <br/><br/><a href='https://patrizioroversi.it/' target={'_blank'}>→ patrizioroversi.it</a>",
+      "mietta": "Una cliente privata mi ha chiesto di realizzare un sito web per mostrare il suo lavoro come regista e scenografa, al fine di poter prenotare più progetti. Ho utilizzato <i>Wordpress</i>, creando quattro pagine e mostrandole come poteva aggiungerne altre da sola. Il sito web è disponibile in tre lingue diverse.<br/><br/><a href='https://miettacorli.it' target={'_blank'}>→ miettacorli.it</a>",
+      "gruppo98": "Ho realizzato questo semplice documentario per un gruppo di poetesse chiamato <i><b>Gruppo '98 Poesia</b></i> che ne aveva bisogno per raccontare la propria storia e la propria metodologia in modo accessibile. Questo video fa parte dell'<a href=\"https://archivio.women.it/\" target=\"_blank\" rel=\"no-referrer\">Archivio di Storia delle Donne</a> del Centro delle Donne di Bologna.",
+      "tindog": "Questo è un sito web che ho sviluppato per esercitarmi con CSS per il <b>Web Development Bootcamp</b> della London App Brewery.<br/> <br/> <a href=\"https://eozisfine.github.io/tindog2/\">→ tindog app</a>",
+      "loSaiChe": "Ho lavorato come co-conduttrice alla web-serie <a\nhref=\"https://www.youtube.com/playlist?list=PLAOYbpieiFAfIOH1RCHpTZXL-oC-y_oLR\"><i>\"Lo Sai\nChe?\"</i></a> per BioVoices e PerCasoSrl. Ogni video ha come tema <b>l'impatto ambientale</b> delle nostre abitudini quotidiane. Nella serie, Blady e io proponiamo alcune opzioni praticabili.<br/> <br/>\n<a href=\"https://www.youtube.com/playlist?list=PLAOYbpieiFAfIOH1RCHpTZXL-oC-y_oLR\">→ guarda qui\nl'intera serie</a>",
+      "ampliadora": "Ho frequentato due corsi di fotografia presso la Scuola Sociale di Fotografia <a\nhref=\"https://www.instagram.com/la_ampliadora/\">\"La Ampliadora\"</a></b> a Granada. Dopo aver terminato il secondo, gli altri corsisti ed io abbiamo organizzato <b>una mostra per la festa del papà</b>: <a\nhref=\"https://www.laampliadora.org/inauguracion-exposicion-tu-papa-tambien/\">«TU PAPÁ\nTAMBIÉN»</a>. Abbiamo ritratto dei volontari, appartenenti a un gruppo di autocoscienza maschile, e le loro famiglie. I temi centrali erano mascolinità e paternità. Lo scopo era rappresentarli in luce femminista e con tenerezza.",
+      "inViaggio": "Ho lavorato per <a href=\"https://mediasetitalia.com/\">Mediaset</a> e PerCasoSrl a <i>\"In viaggio con mia figlia\"</i>, una serie tv dedicata all'<b>ecoturismo in Italia</b>. Il mio ruolo era quello di co-conduttrice.\n<br/> <br/><a href=\"https://youtu.be/wU2yt2CL1Vg?si=fuhTsN7UfL6ZCdCl\">→ guarda la presentazione della serie tv</a>                      <br/> <a href=\"https://youtu.be/wU2yt2CL1Vg?si=fuhTsN7UfL6ZCdCl\">→ guarda il trailer</a>                       <br/><a href=\"https://www.italiaslowtour.it/inviaggioconmiafiglia/\">→ guarda l'intera serie</a>                        <br/><a href=\"https://www.youtube.com/watch?v=MjFmDSVDoBs&list=PLA_oVzg3LuIrJg1REy7gPPbWaKoBp5_Xd&index=13\">→ guarda un'anteprima della puntata su Napoli</a>"
+    },
+    "writing": {
+      "writingTitle": "Scrittura",
+      "writingDescription": "Faccio cose vedo gente"
+    },
+    "cardSection": {
+      "cardTitle": "Videomaker e Sviluppatrice Front-End",
+      "cardP1": "Ho sempre lavorato nel campo della comunicazione. Sono una sviluppatrice front-end junior, nonché una videomaker e video editor esperta. Parlo quattro lingue.",
+      "cardP2": "Sono una persona sensibile e attenta ai dettagli. Ho una viva immaginazione e curiosità, che mi aiutano a trovare soluzioni creative ai problemi.",
+      "cardP3": "So lavorare in gruppo. Prediligo una comunicazione diretta e gentile e un ascolto attivo."
+    },
+    "workExperience": {
+      "workExTitle": "esperienza lavorativa",
+      "become": "2023-2024 Junior Front-end Developer per BECOME Augmented Life. Assunzione a tempo determinato parziale, con mansioni di programmatrice e montatrice video. Il lavoro si è svolto\ncompletamente da remoto. Strumenti e linguaggi usati: Node.js, Next.js, Amazon Web Services, Unreal Engine 5, React.js, Shopify, Premiere Pro. (Milano, full remote)",
+      "freelance": "2022-2023 Freelance Videomaker e Junior Front-end Developer",
+      "Orlando2": "2021-2022 Collaborazione come Amministratrice dei contenuti web con Ass.ne Orlando-Centro delle Donne di Bologna. Mansioni: Videomaker, Fotografa, Social Media Manager, Creatrice di contenuti. (Bologna)",
+      "Orlando1": "2020-2021 Tirocinio post-laurea all'Ass.ne Orlando-Centro delle Donne di Bologna (Bologna)",
+      "loSaiChe": "2021 Co-conduttrice delle pillole video \"Lo Sai Che\" per Biovoices e PerCaso Srl (Bologna)",
+      "TPCmagazine": "2020-2021 Redattrice per Turisti per Caso Magazine per PerCaso Srl (Bologna)",
+      "sessfem": "2020 Facilitatrice volontaria del percorso gratuito sulle sessualità femminili Sessfem (Bologna)",
+      "inViaggioCon": "2018 Co-conduttrice del programma tv \"In viaggio con mia figlia\" per Mediaset e PerCaso Srl (Bologna)",
+      "astalli": "2017 Tirocinio universitario al rifugio per donne migranti La Casa di Giorgia del Centro Astalli (150 ore) (Roma)",
+      "perCaso": "2015-2018 Varie collaborazioni come Videomaker e Montatrice per PerCaso Srl (Bologna)",
+      "oxfam": "2012 Volontaria assistente alle vendite per Oxfam (Londra)"
+    },
+    "skills": {
+      "skillsTitle": "competenze",
+      "writing": "scrittura",
+      "videomaking": "videomaking",
+      "video editing": "montaggio video",
+      "programming": "programmazione web",
+      "photography": "fotografia",
+      "social media": "social media"
+    },
+    "languages": {
+      "languagesTitle": "lingue parlate",
+      "it": "italiano (madrelingua)",
+      "en": "inglese (ottimo, c2)",
+      "es": "spagnolo (medio, b2)",
+      "fr": "francese (decente, b1)"
+    },
+    "tools": {
+      "toolsTitle": "strumenti"
+    },
+    "education": {
+      "educationTitle": "istruzione",
+      "master": "2017-2019 EN-ES-ITA Erasmus +: Erasmus Mundus Master's Degree in Women's and Gender Studies. Università di Bologna and Universidad de Granada (Bologna, Granada)",
+      "bachelor": "2013-2017 ITA Laurea triennale in \"Storia, Antropologia, Religioni\" - Curriculum di Antropologia culturale. Università La Sapienza (Roma)",
+      "highSchool": "2008-2013 ITA Diploma di Liceo Linguistico. Lingue imparate: Inglese, Francese, Spagnolo. Liceo Linguistico Malpighi (Bologna)"
+    },
+    "courses": {
+      "coursesTitle": "corsi",
+      "permaculture": "Accademia Italiana di Permacultura (Zocca, MO). 72 ore.",
+      "angela": "Corso online di programmazione, tenuto da Angela Yu. 65,5 ore.",
+      "photographyEbiner": "Corso online tenuto da Phil Ebiner. 25 ore.",
+      "videoStorytelling": "Corso online tenuto da Andrew St.Pierre White. 4,5 ore.",
+      "ampliadora": "Corso in presenza, tenuto alla Escuela Social de Fotografia La Ampliadora (Granada). 15 ore.",
+      "ielts": "Punteggio: 7.9 (C1)",
+      "beFilmaker": "Due corsi in presenza di filmmaking (livello iniziale e intermedio), con borsa di studio.",
+      "genius": "Metodo Genius: Tecniche di memoria, mappe mentali, strategie per imparare. Genius (Bologna)",
+      "ielts2": "Punteggio: 6.5 (B2)"
+    },
+    "hobbies": {
+      "hobbiesTitle": "tempo libero",
+      "hobbiesDescription": "Scrivere racconti; Leggere; Permacultura (mantenere e organizzare il bosco e l'orto di casa); Coltivare ortaggi e alberi da frutto; Raccolta erbe spontanee per farne unguenti, oleoliti e liquori; Trekking; Giochi da tavolo; Videogiochi; CNV - Comunicazione non violenta; Storia culturale della comunità LGBTQIA+ e dei movimenti femministi; Tiro con l'arco; Uncinetto; Suonare e cantare"
+    },
+    "contactMe": {
+      "contactMeTitle": "Contatti",
+      "contactMeSubtitle": "Sono disponibile per collaborazioni.",
+      "contactMeDescription": "Se c'è un progetto che vuoi iniziare, pensi di aver bisogno del mio aiuto con qualcosa o vuoi solo farmi un saluto, scrivimi."
+    }
+  }
+}
