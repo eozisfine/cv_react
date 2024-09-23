@@ -582,10 +582,13 @@ iframe {
     border: none;
 }
 
-
 .animated-image{
     transition: all 0.4s ease-in-out;
-    /**animation: float 6s ease-in-out infinite;**/
+    animation: float 6s ease-in-out infinite;
+    margin-top: -15%;
+    @media (max-width: 1200px) {
+        margin-top: -51%;
+    }
 }
 
 @keyframes float {

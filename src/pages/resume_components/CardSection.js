@@ -56,8 +56,8 @@ const CardSection = () => {
                         </Typography.Paragraph>
                         <div style={{
                             paddingBottom: 10
-                        }}><a className="btn" href="mailto:zoeroversigiusti1@gmail.com">cv ita</a>
-                            <a className="btn" href="mailto:zoeroversigiusti1@gmail.com">cv en</a>
+                        }}><a className="btn" href="./CV 2024 ITA.pdf" target={"_blank"}>cv ita</a>
+                            <a className="btn" href="./CV 2024 EN.pdf" target={"_blank"}>cv en</a>
                         </div>
                     </>
                 }
