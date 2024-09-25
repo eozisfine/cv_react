@@ -157,6 +157,26 @@ const ProjectList = () => {
                 type: 'text',
                 text:  t( 'projects.inViaggio' )
             }
+        },
+        {
+            right: {
+                type: 'iframe',
+                url: 'https://www.youtube.com/embed/uT2CQYIXAwM?si=aK1ZXJpxGA_PIwOQ'
+            },
+            left: {
+                type: 'text',
+                text: t( 'projects.cecoli' )
+            }
+        },
+        {
+            right: {
+                type: 'text',
+                text: t( 'projects.nudm' )
+            },
+            left: {
+                type: 'iframe',
+                url: 'https://player.vimeo.com/video/299219976?h=361c8ec6f1'
+            }
         }
     ]
 
