@@ -52,7 +52,7 @@ const Main = () => {
                 </Layout.Content>
             </Layout>
 
-            <Layout.Footer style={{background: '#E9DAC1'}}>
+            <Layout.Footer style={{background: 'rgb(255 220 183)'}}>
                 <Footer/>
             </Layout.Footer>
 

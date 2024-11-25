@@ -3,6 +3,7 @@ import { Col, Row, Typography } from "antd";
 import { Anchor } from 'antd';
 import React from 'react';
 import { useWindowWidth } from "@react-hook/window-size";
+import { Cat } from "../components/cat";
 
 
 const About = () => {
@@ -11,11 +12,11 @@ const About = () => {
     const { t, i18n } = useTranslation();
 
     return (
-        <div style={{ position: 'relative', padding: onlyWidth < 1200 ? 20 : 0 }}>
+        <div style={{ position: 'relative', padding: onlyWidth < 1200 ? 20 : 0 , backgroundColor: '#ffeede'}}>
             <div className="about" style={{
                 paddingTop: onlyWidth < 1200 ? 0 : '10em',
                 maxWidth: onlyWidth < 1200 ? 'none' : '36%', margin: 'auto', minHeight: onlyWidth < 1200 ? 0 : '75vh' }}>
-                <Typography.Title level={2} style={{ margin: '2em 0' }}>{t('about.aboutTitle')}</Typography.Title>
+                <Typography.Title level={2} style={{ margin: '2em 0'}}>{t('about.aboutTitle')}</Typography.Title>
                 <p>
                     {t('about.aboutDescription')}
                 </p>
@@ -23,24 +24,19 @@ const About = () => {
             </div>
             <div style={{
                 position: onlyWidth < 1200 ? "relative" : "absolute",
-                border:  onlyWidth < 1200 ? '10px solid #f0f2f5' : "none",
-                borderRight:   onlyWidth < 1200 ? 0 : '36px solid #9ed2c6',
                 left: 0,
-                bottom: 0,
+                bottom: -100,
                 width: onlyWidth < 1200 ? 240 : '24%',
-                height: onlyWidth < 1200 ? 240 : '90%',
+                height: onlyWidth < 1200 ? 240 : '100%',
                 backgroundPosition: 'bottom',
                 marginTop: onlyWidth < 1200 ? '2em' : 0,
                 margin: 'auto',
-                borderTopLeftRadius: '80%',
-                borderTopRightRadius: '80%',
-                borderBottomLeftRadius: '0%',
-                borderBottomRightRadius: '0%',
                 overflow: 'hidden',
                 //boxShadow: '0 0 0 10px #9ed2c6'
             }}>
-                <img style={{ width: '100%' }}  className='animated-image' src={'./images/about5.jpg'}/>
+                <img style={{ width: '100%', borderBottomRightRadius: '35%' }} src={'./images/14.png'}/>
             </div>
+            <Cat/>
         </div>
     )
 }

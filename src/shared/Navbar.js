@@ -42,6 +42,7 @@ const Navbar = ( { items } ) => {
 
     return <Layout.Header
         ref={box}
+        className={'page-'+location.pathname.replace('/', '')}
         style={{
             backgroundColor: topPosition > 100 ? color : 'transparent', height: 100,
             textTransform: 'uppercase',

@@ -12,8 +12,12 @@ const History = () => {
             mode={'alternate'}>
 
             <Timeline.Item dot={<ClockCircleOutlined style={{ fontSize: '16px' }} />}>
-                {t( 'workExperience.become' )}
+                {t( 'workExperience.freelance2' )}
             </Timeline.Item>
+
+            <Timeline.Item>
+                {t( 'workExperience.become' )}
+        </Timeline.Item>
 
             <Timeline.Item>
                 {t( 'workExperience.freelance' )}

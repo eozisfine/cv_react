@@ -39,7 +39,7 @@ const Skills = () => {
         <Row gutter={16}>
             {my_skills.map((skill, index) =>
                 <Col xs={24} lg={6} key={`card-${index}`}>
-                    <Card title={t(`skills.${skill.name}`)} style={{background: '#803e73', marginTop: 25}} bordered={false}>
+                    <Card title={t(`skills.${skill.name}`)} style={{background: '#587546', marginTop: 25}} bordered={false}>
                         <Rate value={skill.rate}/>
                     </Card>
                 </Col>

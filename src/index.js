@@ -1,16 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './i18n.js'
+import { ConfigProvider } from "antd";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const customTheme = {
+    token: {
+        fontFamily: "'Libre Baskerville', serif",
+    },
+};
+
+const root = ReactDOM.createRoot( document.getElementById( 'root' ) );
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <React.StrictMode>
+        <ConfigProvider theme={customTheme}>
+            <App/>
+        </ConfigProvider>
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

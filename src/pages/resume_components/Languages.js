@@ -33,7 +33,7 @@ const Languages = () => {
         <Row gutter={16}>
             {my_languages.map((skill, index) =>
                 <Col xs={24} lg={6} key={`card-${index}`}>
-                    <Card title={skill.name} style={{background: '#803e73'}} bordered={false}>
+                    <Card title={skill.name} style={{background: '#587546'}} bordered={false}>
                         <Rate value={skill.rate}/>
                     </Card>
                 </Col>

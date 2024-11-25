@@ -3,10 +3,6 @@ import { useTranslation, withTranslation, Trans } from 'react-i18next';
 
 const my_skills = [
     {
-        name: 'visual S. Code',
-        rate: 4
-    },
-    {
         name: 'web storm',
         rate: 4
     },
@@ -23,11 +19,11 @@ const my_skills = [
         rate: 4
     },
     {
-        name: 'g-Suite',
+        name: 'g-suite',
         rate: 4
     },
     {
-        name: 'finalCutPro x',
+        name: 'finalcutpro x',
         rate: 5
     },
     {
@@ -78,14 +74,6 @@ const my_skills = [
     {
         name: 'aws',
         rate: 3
-    },
-    {
-        name: 'ad. Illustrator',
-        rate: 2
-    },
-    {
-        name: 'ad. InDesign',
-        rate: 2
     }
 ]
 
@@ -100,7 +88,7 @@ const Tools = () => {
         <Row gutter={16}>
             {my_skills.map((skill, index) =>
                 <Col xs={24} lg={4} key={`card-${index}`}>
-                    <Card title={skill.name} style={{background: '#803e73', marginTop: 25}} bordered={false}>
+                    <Card title={skill.name} style={{background: '#587546', marginTop: 25}} bordered={false}>
                         <Rate value={skill.rate}/>
                     </Card>
                 </Col>

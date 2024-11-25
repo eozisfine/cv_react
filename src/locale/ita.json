@@ -5,20 +5,25 @@
       "about": "chi sono",
       "projects": "progetti",
       "writing": "scrittura",
-      "contactMe": "contatti"
+      "contactMe": "contattami"
     },
     "footer": {
       "description": "programmazione e design @ zoe roversi giusti. icone @ Freepik. avatar @ Picrewの"
     },
     "home": {
-      "description": "videomaker, montatrice, programmatrice front-end e creatrice di contenuti."
+      "description": "artigianato digitale",
+      "middle-title": "Hai bisogno di raccontare la tua realtà sul web?\n<br/> Questo è il posto giusto.",
+      "middle-description": "Con dieci anni di esperienza nel campo della comunicazione,\n<br/>offro servizi a tutto tondo come sviluppatrice web,\n<br/>videomaker, montatrice, social media manager e content creator.\n<br/>Il tutto mantenendo un approccio umano, orientato ai bisogni dellə cliente.",
+      "tools": "strumenti principali",
+      "bottom-title": "chiedimi un preventivo"
     },
     "about": {
       "aboutTitle": "Chi sono",
-      "aboutDescription" : "Mi chiamo Zoe Roversi Giusti. Sono una sviluppatrice front-end, videomaker e montatrice. Vivo nell'Appennino Modenese. Scrivo e leggo molto. Sono appassionata di comunicazione, permacultura e tutto ciò che si può fare di creativo e manuale."
+      "aboutDescription" : "Mi chiamo Zoe Roversi Giusti. Offro servizi di artigianato digitale come sviluppatrice front-end, videomaker, montatrice, social media manager e content creator. Ho una formazione umanistica, in Antropologia Culturale e Studi di Genere. Vivo nell'Appennino Modenese. Scrivo e leggo molto. Sono appassionata di comunicazione, permacultura e tutto ciò che si può fare di creativo e manuale."
     },
     "projects": {
-      "projectsTitle": "ultimi progetti",
+      "projectsTitle": "alcuni progetti su cui ho lavorato",
+      "fattoriakoine": "Sto lavorando a <b>un sito web per una realtà locale</b>, insieme alla cliente privata che mi ha commissionato questo progetto. Sto utilizzando Wordpress per creare una struttura stabile, facilmente modificabile dalla cliente, che segua il design e lo stile che mi ha fornito. Il risultato valorizza e rende di facile comprensione i servizi offerti e le attività ricorrenti di questo luogo per eventi.<br/><br/>→ <i>fattoria koinè</i> [lavoro in corso!]",
       "permaorto": "Attualmente sto sviluppando un'app, <i>PermaOrto</i> (il nome ufficiale è da decidere), dedicata alla delicata arte di coltivare le proprie verdure. Faciliterà l'utente a raccogliere dati sul tipo di ambiente su cui sta lavorando e sulla propria esperienza da anno in anno. Inoltre fornirà consigli sulle colture. Le informazioni fornite dall'app seguiranno la conoscenza e le etiche della permacultura.",
       "tradAI": "<b><i>ItaliaSlowTour</i></b> mi ha chiesto di usare ElevenLabs (un'app che si occupa di intelligenza artificiale e audio) per doppiare in tedesco un video che originariamente era in italiano. Attualmente sto facendo lo stesso lavoro per loro, ma per un video più lungo, che deve essere tradotto e doppiato dall'italiano all'inglese. <br/><br/><a href='https://www.italiaslowtour.it/' target={'_blank'}>→ italiaslowtour.it</a>",
       "become": "Ho lavorato per <i><b>BECOME. Augmented Life</b></i> per un anno, come Junior Front-end Developer e Video Editor. Ho trascorso la maggior parte del mio tempo a sviluppare questa app web, dedicata ai corsi online forniti dall'azienda. <br/><br/><a href=\"https://discoverbecome.com/\" target={'_blank'}>→ discoverbecome.com</a>",
@@ -37,13 +42,14 @@
       "writingDescription": "Faccio cose vedo gente"
     },
     "cardSection": {
-      "cardTitle": "Videomaker e Sviluppatrice Front-End",
+      "cardTitle": "Artigiana Digitale",
       "cardP1": "Ho sempre lavorato nel campo della comunicazione. Sono una sviluppatrice front-end junior, nonché una videomaker e video editor esperta. Parlo quattro lingue.",
       "cardP2": "Sono una persona sensibile e attenta ai dettagli. Ho una viva immaginazione e curiosità, che mi aiutano a trovare soluzioni creative ai problemi.",
       "cardP3": "So lavorare in gruppo. Prediligo una comunicazione diretta e gentile e un ascolto attivo."
     },
     "workExperience": {
       "workExTitle": "esperienza lavorativa",
+      "freelance2": "2024-oggi Sviluppatrice, social media manager e montatrice freelance",
       "become": "2023-2024 Junior Front-end Developer per BECOME Augmented Life. Assunzione a tempo determinato parziale, con mansioni di programmatrice e montatrice video. Il lavoro si è svolto\ncompletamente da remoto. Strumenti e linguaggi usati: Node.js, Next.js, Amazon Web Services, Unreal Engine 5, React.js, Shopify, Premiere Pro. (Milano, full remote)",
       "freelance": "2022-2023 Freelance Videomaker e Junior Front-end Developer",
       "Orlando2": "2021-2022 Collaborazione come Amministratrice dei contenuti web con Ass.ne Orlando-Centro delle Donne di Bologna. Mansioni: Videomaker, Fotografa, Social Media Manager, Creatrice di contenuti. (Bologna)",
@@ -100,7 +106,7 @@
     "contactMe": {
       "contactMeTitle": "Contatti",
       "contactMeSubtitle": "Sono disponibile per collaborazioni.",
-      "contactMeDescription": "Se c'è un progetto che vuoi iniziare, pensi di aver bisogno del mio aiuto con qualcosa o vuoi solo farmi un saluto, scrivimi."
+      "contactMeDescription": "Se vorresti un parere su un progetto che vuoi iniziare, ti interessa un preventivo, pensi di aver bisogno del mio aiuto con qualcosa o vuoi solo farmi un saluto, scrivimi."
     }
   }
 }

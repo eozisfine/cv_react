@@ -11,14 +11,19 @@
       "description": "Designed and coded by @ zoe roversi giusti 2024. Icons @ Freepik. Pixel avatar @ Picrewの."
     },
     "home": {
-      "description": "Videomaker, Video Editor, Front-end developer, communication enthusiast."
+      "description": "digital craft",
+      "middle-title": "Do you want to start an online project?<br/>This is the right place.",
+      "middle-description": "\nWith ten years of experience in the communication field,\n<br/>I offer all-round services as a web developer,<br/>\nvideomaker, editor, social media manager and content creator.<br/>\nAll while maintaining a human approach, oriented towards the needs of the customer.",
+      "tools": "main tools",
+      "bottom-title": "let's connect"
     },
     "about": {
       "aboutTitle": "About me",
-      "aboutDescription": "Hello! My name is Zoe Roversi Giusti. I’m a front-end developer, videomaker and video-editor from\n                    Italy.\n                    I’m a jack of all trades - master of some. I’m passionate about writing, reading, communicating,\n                    permaculture and all things creative."
+      "aboutDescription": "My name is Zoe Roversi Giusti. I offer digital craftsmanship services as a front-end developer, videomaker, editor, social media manager and content creator. I live in the Italian Apennines. I write and read a lot. I am passionate about communication, permaculture and everything that can be done creatively and manually."
     },
     "projects": {
-      "projectsTitle": "latest projects",
+      "projectsTitle": "a bunch of projects I've worked on",
+      "fattoriakoine": "I'm working on a website for a local event venue, alongside the private customer that commissioned me this project. I'm employing Wordpress to create a stable structure, comfortably editable by the customer, that follows the design and the style she provided me. <br/><br/>→ <i>fattoria koinè</i> [wip!]",
       "permaorto": "I am currently developing an app, <i>PermaOrto</i> (the official name is tbd), dedicated to the delicate art of growing your own vegetables. It will allow the user to collect data about their experience & easily access information about how to grow a garden. These info will follow the insights and ethics of permaculture",
       "tradAI": "<b><i>ItaliaSlowTour</i></b> asked me to use ElevenLabs (an app that deals with AI and audio) to dub in German a video that was originally in Italian. I'm currently doing the same work for them but for a longer video, that has to be translated and dubbed from Italian to English. <br/><br/><a href='https://www.italiaslowtour.it/' target={'_blank'}>italiaslowtour.it</a>",
       "become": "I worked for <i><b>BECOME. Augmented Life</b></i> for a year, as a Junior Front-end Developer and Video Editor. I spent most of my time developing this web app, that was dedicated to online courses. <br/><br/><a href=\"https://discoverbecome.com/\" target={'_blank'}>discoverbecome.com</a>",
@@ -37,13 +42,14 @@
       "writingDescription": "I write stuff that I personally like"
     },
     "cardSection": {
-      "cardTitle": "Videomaker and Front-end developer",
+      "cardTitle": "Digital Artisan",
       "cardP1": "I've always worked in the communication field. I'm an experienced videomaker and video editor, as well as a junior front-end developer. I speak four languages.",
       "cardP2": "I'm a sensitive person who pays attention to details. I have a lively imagination and curiosity, which help me find creative solutions to problems.",
       "cardP3": "I know how to work in a team. I prefer direct and kind communication and active listening."
     },
     "workExperience": {
       "workExTitle": "work experience",
+      "freelance2": "2024-current Front-End Developer, Editor and Social Media Manager Freelance",
       "become": "2023-2024 Junior Front-end Developer at BECOME. Augmented Life (Milan). Full remote. I worked as a programmer and a video editor, while learning to employ tools such as AWS, React.js and Unreal Engine 5.",
       "freelance": "2022-2023 Freelance Videomaker and Junior Front-end Developer",
       "Orlando2": "2021-2022 Collaboration (as a Videomaker, Photographer, Social Media Manager, Content creator) with Ass.ne Orlando-Centro delle Donne di Bologna (Bologna)",

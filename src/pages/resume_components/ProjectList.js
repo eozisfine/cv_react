@@ -44,6 +44,18 @@ const ProjectList = () => {
     const projects = [
         {
             left: {
+                type: 'image',
+                url: 'images/fattoria.jpg',
+            },
+            right: {
+                type: 'text',
+                text: (
+                    t( 'projects.fattoriakoine' )
+                )
+            }
+        },
+        {
+            left: {
                 type: 'text',
                 text: t( 'projects.permaorto' )
             },
@@ -190,8 +202,9 @@ const ProjectList = () => {
                 <div
                     key={'row-' + index}
                     style={{
-                        backgroundColor: index % 2 === 0 ? 'transparent' : '#dfdfdf',
-                        padding: '1em 0'
+                        backgroundColor: index % 2 === 0 ? 'transparent' : '#577445',
+                        padding: '1em 0',
+                        color: index % 2 === 0 ? 'black' : 'white'
                     }}>
                     <Row
                         gutter={32}

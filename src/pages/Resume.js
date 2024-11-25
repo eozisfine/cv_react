@@ -16,10 +16,10 @@ const Resume = () => {
         <CardSection/>
         <History/>
         <Skills/>
-        <Languages/>
-        <Tools/>
         <Education/>
         <Courses/>
+        <Languages/>
+        <Tools/>
         <Hobbies/>
     </div>
 }

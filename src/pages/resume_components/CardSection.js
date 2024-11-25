@@ -16,7 +16,7 @@ const CardSection = () => {
                     width: 250,
                     height: 250
             }}
-                src="images/pixel-avatar2.png"/>
+                src="images/14.png"/>
             </div>
                 :
             null
@@ -29,13 +29,13 @@ const CardSection = () => {
                 margin: 'auto',
                 paddingTop: onlyWidth <= 1200 ? 150: 0,
                 borderRadius: 15,
-                background: '#803e73',
+                background: '#587546',
             }}
         >
             <Meta
                 avatar={onlyWidth > 1200 ? <Avatar
                     style={{ width: 250, height: 250 }}
-                    src="images/pixel-avatar2.png"/> : null}
+                    src="images/14.png"/> : null}
                 title="Zoe Roversi Giusti"
                 description={
                     <>

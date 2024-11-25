@@ -1,13 +1,10 @@
-import { Layout, Col, Row, Button } from "antd";
+import { Layout, Col, Row, Button, Avatar, Card, Typography, Divider, Flex } from "antd";
 import Footer from "../shared/Footer";
 import Navbar from "../shared/Navbar";
 import { useState } from "react";
 import { LayoutContext } from '../layouts/LayoutContext';
 import { useTranslation } from "react-i18next";
-
-//Userò Floating per la Navbar della Home e Grow per le immagini tonde; poi è da aggiungere immagine fiori o altro in fondo
-
-
+import Meta from "antd/es/card/Meta";
 
 
 const Home = () => {
@@ -16,13 +13,13 @@ const Home = () => {
 
     const items = [
         {
-            name: t('navbar.about'), href: '/about'
+            name: t( 'navbar.about' ), href: '/about'
         },
         {
             name: 'CV', href: '/resume'
         },
         {
-            name: t('navbar.contactMe'), href: '/contactme'
+            name: t( 'navbar.contactMe' ), href: '/contactme'
         },
     ].map( ( { name, href }, index ) => {
         return {
@@ -33,83 +30,60 @@ const Home = () => {
     return <>
         <LayoutContext.Provider value={{ color, setColor }}>
             <Layout style={{ backgroundColor: 'transparent' }}>
-
                 <Navbar items={items}/>
+                <Layout.Content>
+                    <div className="top-container">
+                        <div className="video-container">
+                            <video autoPlay muted loop className="background-video">
+                                <source src="/images/homevideo.mp4" type="video/mp4"/>
+                            </video>
 
-
-                <Layout style={{ backgroundColor: 'transparent' }}>
-                    <Layout.Content>
-                        <div className="top-container">
-                            <Row align={'middle'} gutter={64}>
-                                <Col xs={24} lg={8}>
-                                    <a href="/projects">
-                                        <div className="floating home-watermelon-panel-title">
-                                            <svg viewBox="0 0 100 100" width="100" height="100" id={'svg1'}>
-                                                <defs>
-                                                    <path id="circle"
-                                                          d="
-        M 50, 50
-        m -37, 0
-        a 37,37 0 1,1 74,0
-        a 37,37 0 1,1 -74,0"/>
-                                                </defs>
-                                                <text fontSize="26" letterSpacing={5}>
-                                                    <textPath xlinkHref="#circle">
-                                                        {t('navbar.projects')}
-                                                    </textPath>
-                                                </text>
-                                            </svg>
-                                            <img className="img-home" src="images/projects.png" style={{ maxWidth: 80 }}/>
+                            <div className="overlay">
+                                <Row align={'middle'} gutter={64}>
+                                    <Col xs={24} lg={8}>
+                                        <div className="tossing">
+                                            <img src="images/logo_mio.png" alt="logo"
+                                                 width="180px"/>
                                         </div>
-                                    </a>
-                                </Col>
-                                <Col xs={24} lg={8}>
-                                    <div className="tossing">
-                                        <img src="images/logo_mio.png" alt="logo"
-                                             width="180px"/>
-                                        </div>
-                                </Col>
-                                <Col xs={24} lg={8}>
-                                    <a href="/writing">
-                                        <div className="floating home-watermelon-panel-title">
-                                            <svg viewBox="0 0 100 100" width="100" height="100"
-                                                 id={'svg2'}
-                                                 style={{marginLeft: 20}}>
-                                                <defs>
-                                                    <path id="circle"
-                                                          d="
-        M 50, 50
-        m -37, 0
-        a 37,37 0 1,1 74,0
-        a 37,37 0 1,1 -74,0"/>
-                                                </defs>
-                                                <text fontSize="26" letterSpacing={3}>
-                                                    <textPath xlinkHref="#circle">
-                                                    {t('navbar.writing')}
-                                                    </textPath>
-                                                </text>
-                                            </svg>
-                                            <img className="img-home" src="images/writing.png"  style={{maxWidth: 60}}/>
-                                        </div>
-                                    </a>
-                                </Col>
-                            </Row>
-                            {//**}<div><img className="imgHome" src="images/girasoli_home2.png"/></div>**//
-                                 }
-                                 <Row justify={'center'}><Col style={{textAlign: "center", marginTop: "40px"}}><h2 style={{fontSize: "1rem", color: "#918877"}}>{t('home.description')}</h2></Col></Row>
-                            <Row gutter={16} justify={'center'} className={'miao'}>
-                               <a  className={'btn'} target="_blank" href="/projects">{t( 'navbar.projects' )}</a>
-                                <a className={'btn'} target="_blank" href="/writing">{t( 'navbar.writing' )}</a>
-                            </Row>
+                                    </Col>
+                                </Row>
+                                <Row justify={'center'}><Col style={{ textAlign: "center", marginTop: "40px" }}><h2
+                                    style={{ fontSize: "3rem", color: "#918877" }}>{t( 'home.description' )}</h2>
+                                    <h2><a target="_blank" href="/contactme">↘{t( 'navbar.contactMe' )}</a></h2>
+                                </Col></Row>
+                            </div>
                         </div>
-                    </Layout.Content>
-                </Layout>
+                    </div>
 
-                <Layout.Footer style={{ background: '#E9DAC1', position: "relative", zIndex:2 }}>
-                    <Footer/>
-                </Layout.Footer>
+                    <div className="middle-container">
+                        <div style={{ textAlign: 'right', marginRight: 70 }}>
+                            <h2 dangerouslySetInnerHTML={{__html: t('home.middle-title')}}/>
+                            <p style={{ color: 'white' }} dangerouslySetInnerHTML={{__html: t('home.middle-description')}}/>
+                            <h2><a target="_blank" href="/projects">↘{t( 'navbar.projects' )}</a></h2>
+                            <h2><a target="_blank" href="/writing">↘{t( 'navbar.writing' )}</a></h2></div>
+                    </div>
 
+                    <div className="third-container" style={{ textAlign: 'center' }}>
+                        <h2>{t( 'home.tools' )}</h2>
+
+                        <Flex justify="space-evenly" align="center" className="centered-container2" style={{marginTop: 48, marginBottom: 32}}>
+                            <div><img src="/images/webstorm.png"/></div>
+                            <div><img src="/images/react.png"/></div>
+                            <div><img src="/images/wordpress3.png"/></div>
+                            <div><img src="/images/premiere.png"/></div>
+                        </Flex>
+                    </div>
+
+                    <div className="bottom-container" style={{ textAlign: 'center' }}>
+                        <h2>{t( 'home.bottom-title' )}</h2>
+                        <h2><a target="_blank" href="/contactme">↘{t( 'navbar.contactMe' )}</a></h2>
+                    </div>
+                </Layout.Content>
             </Layout>
+
+            <Layout.Footer style={{ background: 'rgb(255, 220, 183)', position: "relative", zIndex: 2 }}>
+                <Footer/>
+            </Layout.Footer>
         </LayoutContext.Provider>
     </>
 }

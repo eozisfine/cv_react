@@ -140,6 +140,8 @@ const Courses = () => {
     return  <div style={{marginTop: '6em', padding: '2em'}} className={'inverse-section'}>
         <Typography.Title level={2} style={{textAlign: 'center', marginBottom: '1.5em'}}>{t( 'courses.coursesTitle' )}</Typography.Title>
         <List
+            className={'courses-list'}
+            size={'large'}
             itemLayout="horizontal"
             dataSource={data}
             renderItem={item => (
