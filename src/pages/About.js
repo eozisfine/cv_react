@@ -17,9 +17,8 @@ const About = () => {
                 paddingTop: onlyWidth < 1200 ? 0 : '10em',
                 maxWidth: onlyWidth < 1200 ? 'none' : '36%', margin: 'auto', minHeight: onlyWidth < 1200 ? 0 : '75vh' }}>
                 <Typography.Title level={2} style={{ margin: '2em 0'}}>{t('about.aboutTitle')}</Typography.Title>
-                <p>
-                    {t('about.aboutDescription')}
-                </p>
+                <p className="pAbout"
+                                         dangerouslySetInnerHTML={{ __html: t( 'about.aboutDescription' ) }}/>
                 <a href="/resume"><h2>↘ cv</h2></a>
             </div>
             <div style={{

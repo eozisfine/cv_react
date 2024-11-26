@@ -19,7 +19,7 @@
     },
     "about": {
       "aboutTitle": "Chi sono",
-      "aboutDescription" : "Mi chiamo Zoe Roversi Giusti. Offro servizi di artigianato digitale come sviluppatrice front-end, videomaker, montatrice, social media manager e content creator. Ho una formazione umanistica, in Antropologia Culturale e Studi di Genere. Vivo nell'Appennino Modenese. Scrivo e leggo molto. Sono appassionata di comunicazione, permacultura e tutto ciò che si può fare di creativo e manuale."
+      "aboutDescription" : "Mi chiamo Zoe Roversi Giusti. Offro servizi di artigianato digitale.<br/>Figlia d’arte, ho iniziato a formarmi come videomaker e montatrice nel 2015. Durante gli studi di Antropologia Culturale e Studi di Genere, ho approfondito la passione per l’Antropologia Visiva e la comunicazione visuale in generale. Dal 2022 lavoro anche come web developer.</br>Vivo nell'Appennino Modenese. Scrivo e leggo molto. Sono appassionata di comunicazione, permacultura e tutto ciò che si può fare di creativo e manuale."
     },
     "projects": {
       "projectsTitle": "alcuni progetti su cui ho lavorato",
@@ -43,9 +43,9 @@
     },
     "cardSection": {
       "cardTitle": "Artigiana Digitale",
-      "cardP1": "Ho sempre lavorato nel campo della comunicazione. Sono una sviluppatrice front-end junior, nonché una videomaker e video editor esperta. Parlo quattro lingue.",
+      "cardP1": "Parlo quattro lingue. Ho sempre lavorato nel campo della comunicazione - principalmente come videomaker, montatrice, sviluppatrice web, editor di articoli e social media manager. \n",
       "cardP2": "Sono una persona sensibile e attenta ai dettagli. Ho una viva immaginazione e curiosità, che mi aiutano a trovare soluzioni creative ai problemi.",
-      "cardP3": "So lavorare in gruppo. Prediligo una comunicazione diretta e gentile e un ascolto attivo."
+      "cardP3": "So lavorare in gruppo. Prediligo una comunicazione diretta e gentile e un ascolto attivo. Credo in una formazione costante.\n"
     },
     "workExperience": {
       "workExTitle": "esperienza lavorativa",

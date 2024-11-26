@@ -19,7 +19,7 @@
     },
     "about": {
       "aboutTitle": "About me",
-      "aboutDescription": "My name is Zoe Roversi Giusti. I offer digital craftsmanship services as a front-end developer, videomaker, editor, social media manager and content creator. I live in the Italian Apennines. I write and read a lot. I am passionate about communication, permaculture and everything that can be done creatively and manually."
+      "aboutDescription": "My name is Zoe Roversi Giusti. I offer digital craft services.<br/> I began training as a videomaker and editor in 2015. During my studies in Cultural Anthropology and Gender Studies, I deepened my passion for Visual Anthropology and visual communication in general. Since 2022 I have also been working as a web developer.</br> I live in the Italian Apennines. I write and read a lot. I am passionate about communication, permaculture and everything that can be done creatively and manually."
     },
     "projects": {
       "projectsTitle": "a bunch of projects I've worked on",
@@ -43,9 +43,9 @@
     },
     "cardSection": {
       "cardTitle": "Digital Artisan",
-      "cardP1": "I've always worked in the communication field. I'm an experienced videomaker and video editor, as well as a junior front-end developer. I speak four languages.",
-      "cardP2": "I'm a sensitive person who pays attention to details. I have a lively imagination and curiosity, which help me find creative solutions to problems.",
-      "cardP3": "I know how to work in a team. I prefer direct and kind communication and active listening."
+      "cardP1": "I speak four languages. I have always worked in the communication field - mainly as a videomaker, video editor, web developer, article editor and social media manager.\n",
+      "cardP2": "I am a sensitive person who pays attention to details. I have a lively imagination and curiosity, which help me find creative solutions to problems.\n",
+      "cardP3": "I know how to work in a team. I prefer direct and kind communication and active listening. I believe in constant training."
     },
     "workExperience": {
       "workExTitle": "work experience",

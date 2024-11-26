@@ -44,6 +44,10 @@ h1, h2, h3, .title {
     color: rgb(255, 162, 53)!important;
 }
 
+.pAbout {
+    font-size: 1rem;
+}
+
 /***Homepage logo animation***/
 
 .flex-container {
