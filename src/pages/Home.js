@@ -47,16 +47,18 @@ const Home = () => {
                                         </div>
                                     </Col>
                                 </Row>
-                                <Row justify={'center'}><Col style={{ textAlign: "center", marginTop: "40px" }}><h2
-                                    style={{ fontSize: "3rem", color: "#918877" }}>{t( 'home.description' )}</h2>
-                                    <h2><a target="_blank" href="/contactme">↘{t( 'navbar.contactMe' )}</a></h2>
-                                </Col></Row>
+                                <Row justify={'center'}>
+                                    <Col style={{ textAlign: "center", marginTop: "40px" }}>
+                                        <h2 style={{ fontSize: "3rem", color: "#918877" }}>{t( 'home.description' )}</h2>
+                                        <h2><a target="_blank" href="/contactme">↘{t( 'navbar.contactMe' )}</a></h2>
+                                    </Col>
+                                </Row>
                             </div>
                         </div>
                     </div>
 
                     <div className="middle-container">
-                        <div style={{ textAlign: 'right', marginRight: 70 }}>
+                        <div  className={'middle-description'}>
                             <h2 dangerouslySetInnerHTML={{__html: t('home.middle-title')}}/>
                             <p style={{ color: 'white' }} dangerouslySetInnerHTML={{__html: t('home.middle-description')}}/>
                             <h2><a target="_blank" href="/projects">↘{t( 'navbar.projects' )}</a></h2>
@@ -66,7 +68,10 @@ const Home = () => {
                     <div className="third-container" style={{ textAlign: 'center' }}>
                         <h2>{t( 'home.tools' )}</h2>
 
-                        <Flex justify="space-evenly" align="center" className="centered-container2" style={{marginTop: 48, marginBottom: 32}}>
+                        <Flex justify="space-evenly"
+                              gap={12}
+                              wrap={"wrap"}
+                              align="center" className="centered-container2" style={{marginTop: 48, marginBottom: 32, padding: 12}}>
                             <div><img src="/images/webstorm.png"/></div>
                             <div><img src="/images/react.png"/></div>
                             <div><img src="/images/wordpress3.png"/></div>

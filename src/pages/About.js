@@ -24,11 +24,12 @@ const About = () => {
             <div style={{
                 position: onlyWidth < 1200 ? "relative" : "absolute",
                 left: 0,
-                bottom: -100,
+                bottom: onlyWidth < 1200 ? 0 :  -100,
                 width: onlyWidth < 1200 ? 240 : '24%',
                 height: onlyWidth < 1200 ? 240 : '100%',
                 backgroundPosition: 'bottom',
                 marginTop: onlyWidth < 1200 ? '2em' : 0,
+                marginBottom: onlyWidth < 1200 ? '9em' : 0,
                 margin: 'auto',
                 overflow: 'hidden',
                 //boxShadow: '0 0 0 10px #9ed2c6'
